@@ -116,3 +116,6 @@ button>span {
     padding-bottom: 6px;
     display: inline-block;
 }
+.main-no-backgrund {
+    background-image: none;
+}
