@@ -1,0 +1,118 @@
+/* RESETS */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body, p, ul {
+    margin: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+    }
+    figure { margin: 0;}
+    .ul {margin: 0;     padding-inline-start: 0;}
+
+  /* END RESETS */
+
+
+body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: 20%;
+    background-color: #3F5B53;
+    border-right: solid 7px #fdc8b7;
+}
+main {
+    height: 100vh;
+    width: 80%;
+    padding: 120px 0 0 150px;
+    background-image: url("/images/background4.svg");
+    background-color: #E7ECEF;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.strecket {
+    border-bottom: 4px solid #FDC8B7;
+    width: 90px;
+    margin-top: 4px;
+}
+h1 {
+    font-size: 3.5em;
+}
+h2 {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 2em;
+}
+.owl {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+.cat-avatar {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+}
+nav {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.fas {
+    color: #E7ECEF;
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+ul {
+    list-style-type: none;
+}
+li>a {
+    color: #E7ECEF;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 1.4em;
+
+}
+figcaption {
+    color: #E7ECEF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+.pink {
+    color: #DE356A;
+}
+.flex-nav{
+    display: flex;
+}
+.flex-nav>div {
+    width: 13%;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.fa-sign-out-alt {
+    margin-right: 8px;
+    margin-bottom: 0;
+}
+button {
+    background-color: #DE356A;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px 3px 20px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+button>span {
+    color: #E7ECEF;
+    padding-bottom: 6px;
+    display: inline-block;
+}
