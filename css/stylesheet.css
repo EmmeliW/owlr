@@ -332,7 +332,7 @@ aside {
     float: left;
     width: 100%;
 }
-form {
+.form1 {
     position: fixed;
     left: 40%;
     bottom: 50px;
