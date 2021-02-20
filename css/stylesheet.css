@@ -23,7 +23,7 @@ header {
     background-color: #3F5B53;
     border-right: solid 7px #fdc8b7;
 }
-main {
+.main {
     height: 100vh;
     width: 80%;
     padding: 120px 0 0 150px;
@@ -175,4 +175,74 @@ h3 {
     margin-bottom: 5px;
     color: #DE356A;
     font-size: 3em;
+}
+
+.login-body {
+    background-image: url("/images/LoginBackground.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: none;
+    height: 100vh;
+
+}
+.login-main {
+    background-image: none;
+    margin-top: 200px;
+    background-color: #E7ECEF;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 50px;;
+}
+.login-main>input{
+    display: block;
+}
+.login-main>input[type=submit]{
+    margin: 30px auto 50px auto;
+    padding: 10px 50px;
+    background-color: #DE356A;
+    color: #E7ECEF;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+.login-main>input[type=text],  .login-main>input[type=password]{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    background-color: rgb(250, 250, 250);
+}
+label {
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+    font-size: 1em;
+}
+.small {
+    font-size: 0.9em;
+}
+.forgot {
+    text-decoration: none;
+    color: #DE356A;
+}
+.forgot-bold {
+    font-weight: bold;
+}
+.block {
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9em;
+}
+h4 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+.login-main>img {
+    margin: auto;
+    display: block;
+    width: 30%;
+    margin-bottom: 30px;
 }
