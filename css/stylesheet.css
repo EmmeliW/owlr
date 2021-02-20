@@ -193,10 +193,10 @@ h3 {
     padding: 40px 60px;
     border-radius: 50px;;
 }
-.login-main>input{
+.login-main>form>input{
     display: block;
 }
-.login-main>input[type=submit]{
+.login-main>form>input[type=submit]{
     margin: 30px auto 50px auto;
     padding: 10px 50px;
     background-color: #DE356A;
@@ -207,7 +207,7 @@ h3 {
     font-weight: bold;
     letter-spacing: 0.1em;
 }
-.login-main>input[type=text],  .login-main>input[type=password]{
+.login-main>form>input[type=text],  .login-main>form>input[type=password]{
     width: 400px;
     height: 40px;
     border-radius: 5px;
